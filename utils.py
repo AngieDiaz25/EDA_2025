@@ -23,9 +23,8 @@ plt.rcParams['font.size'] = 10
 # -----------------------------
 # Carga y exploración de datos
 # -----------------------------
-def cargar_csv(ruta):
-    """Carga un CSV y devuelve un DataFrame"""
-    return pd.read_csv(ruta)
+df = cargar_csv("true_cost_fast_fashion 2.csv")
+pd.read_csv(ruta)
 
 def info_general(df):
     """Muestra información general del DataFrame"""
